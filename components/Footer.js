@@ -1,5 +1,5 @@
 const Footer = () => {
-  return <div>Copyright 2021 Panop Software</div>;
+  return <footer>Copyright 2021 Panop Software</footer>;
 };
 
 export default Footer;

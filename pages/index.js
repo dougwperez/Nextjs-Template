@@ -7,14 +7,14 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <div>
+    <div className={styles.title}>
       <h1>Homepage</h1>
-      <p>
+      <p className={styles.text}>
         Lorem Ipsum passages, and more recently with desktop publishing software
         like Aldus PageMaker including versions of Lorem Ipsum.
       </p>
       <Link href="/ninjas">
-        <a>See Ninja Listing</a>
+        <a className={styles.btn}>See Ninja Listing</a>
       </Link>
     </div>
   );
